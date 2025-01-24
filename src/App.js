@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
-import AdminPortal from "./pages/adminPortal";
-import StudentPortal from "./pages/studentPortal";
+import AdminPortal from ".src/pages/adminPortal";
+import StudentPortal from ".src/pages/studentPortal.js";
 import AdminDashboard from "./components/dashboard/adminDashboard";
 import StudentDashboard from "./components/dashboard/studentDashboard";
 
