@@ -10,11 +10,11 @@ const App = () => {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/admin" element={<AdminPortal />} />
-                <Route path="/student" element={<StudentPortal />} />
-                <Route path="/admin-dashboard" element={<AdminDashboard />} />
-                <Route path="/student-dashboard" element={<StudentDashboard />} />
+                <Route path="MarksPortal/src/pages/home.js" element={<Home />} />
+                <Route path="MarksPortal/src/pages/adminPortal.js" element={<AdminPortal />} />
+                <Route path="MarksPortal/src/pages/studentPortal.js" element={<StudentPortal />} />
+                <Route path="MarksPortal/src/components/dashboard/adminDashboard.js" element={<AdminDashboard />} />
+                <Route path="MarksPortal/src/components/dashboard/studentDashboard.js" element={<StudentDashboard />} />
             </Routes>
         </Router>
     );

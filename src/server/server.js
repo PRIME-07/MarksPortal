@@ -5,7 +5,7 @@ const app = express();
 
 // Serve the homepage
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));  // Serve your HTML file
+    res.sendFile(path.join(__dirname, 'MarksPortal/src/pages/home.js'));
 });
 
 // Serve static files like JS and CSS
